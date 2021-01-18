@@ -5850,7 +5850,7 @@ ProjectHazardX.MinigunButton.Position = UDim2.new(0.532051265, 0, 0.44713974, 0)
 ProjectHazardX.MinigunButton.Selectable = true
 ProjectHazardX.MinigunButton.Size = UDim2.new(1.06410289, 0, 1.05073798, 0)
 ProjectHazardX.MinigunButton.Image = "rbxassetid://3570695787"
-ProjectHazardX.MinigunButton.ImageColor3 = Color3.fromRGB(100, 100, 100)
+ProjectHazardX.MinigunButton.ImageColor3 = Color3.fromRGB(0, 147, 0)
 ProjectHazardX.MinigunButton.ScaleType = Enum.ScaleType.Slice
 ProjectHazardX.MinigunButton.SliceCenter = Rect.new(100, 100, 100, 100)
 ProjectHazardX.MinigunButton.SliceScale = 0.040
@@ -5862,7 +5862,7 @@ ProjectHazardX.MinigunLabel.BackgroundTransparency = 1.000
 ProjectHazardX.MinigunLabel.Position = UDim2.new(0.178743839, 0, 0.321240366, 0)
 ProjectHazardX.MinigunLabel.Size = UDim2.new(0, 55, 0, 3)
 ProjectHazardX.MinigunLabel.Font = Enum.Font.GothamSemibold
-ProjectHazardX.MinigunLabel.Text = "Disabled."
+ProjectHazardX.MinigunLabel.Text = "Execute"
 ProjectHazardX.MinigunLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 ProjectHazardX.MinigunLabel.TextSize = 13.000
 
