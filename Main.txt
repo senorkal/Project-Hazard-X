@@ -2,6 +2,7 @@
 Project Hazard X.
 Made by senorkal.
 ]]--
+
 local ProjectHazardX = {
 	ProjectHazardX = Instance.new("ScreenGui"),
 	RainbowFrame = Instance.new("ImageLabel"),
@@ -5832,7 +5833,7 @@ ProjectHazardX.MinigunExecute.Font = Enum.Font.SourceSans
 ProjectHazardX.MinigunExecute.Text = ""
 ProjectHazardX.MinigunExecute.TextColor3 = Color3.fromRGB(0, 0, 0)
 ProjectHazardX.MinigunExecute.TextSize = 14.000
--ProjectHazardX.MinigunExecute.MouseButton1Down:Connect(function()
+ProjectHazardX.MinigunExecute.MouseButton1Down:Connect(function()
 	ProjectHazardX.MinigunLabel.Text = "Executed!"
 	loadstring(game:HttpGet("https://pastebin.com/raw/Vhk7GkSX"))()
 	wait(2)
@@ -18359,7 +18360,7 @@ ProjectHazardX.Logo.Position = UDim2.new(0.0115834009, 0, -0.000318353821, 0)
 ProjectHazardX.Logo.Size = UDim2.new(0, 29, 0, 30)
 ProjectHazardX.Logo.Image = "rbxassetid://6238881597"
 
-ProjectHazardX.UIGradient_7.Paent = ProjectHazardX.Logo
+ProjectHazardX.UIGradient_7.Parent = ProjectHazardX.Logo
 
 ProjectHazardX.TitleLabel.Name = "TitleLabel"
 ProjectHazardX.TitleLabel.Parent = ProjectHazardX.Title
