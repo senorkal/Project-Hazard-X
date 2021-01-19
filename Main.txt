@@ -18083,7 +18083,7 @@ ProjectHazardX.FencingSwordCustomizeExecute.Font = Enum.Font.SourceSans
 ProjectHazardX.FencingSwordCustomizeExecute.Text = ""
 ProjectHazardX.FencingSwordCustomizeExecute.TextColor3 = Color3.fromRGB(0, 0, 0)
 ProjectHazardX.FencingSwordCustomizeExecute.TextSize = 14.000
-ProjectHazardX.FencingSwordCustomizeExecute.MouseButton1Down(function()
+ProjectHazardX.FencingSwordCustomizeExecute.MouseButton1Down:Connect(function()
 	local FencingSwordCustomizeinput = ""
 	if ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text ~= "" then
 		FencingSwordCustomizeinput = ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text
