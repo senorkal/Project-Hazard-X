@@ -17005,20 +17005,14 @@ ProjectHazardX.GameScriptsContents.Active = true
 ProjectHazardX.GameScriptsContents.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 ProjectHazardX.GameScriptsContents.Size = UDim2.new(0, 511, 0, 199)
 ProjectHazardX.GameScriptsContents.Visible = false
+ProjectHazardX.GameScriptsContents.CanvasPosition = Vector2.new(0, 298.5)
+ProjectHazardX.GameScriptsContents.CanvasSize = UDim2.new(0, 0, 2.5, 0)
 
 ProjectHazardX.PrisonLife.Name = "PrisonLife"
 ProjectHazardX.PrisonLife.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.PrisonLife.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.PrisonLife.BorderSizePixel = 0
 ProjectHazardX.PrisonLife.Size = UDim2.new(0, 249, 0, 101)
-
-ProjectHazardX.PrisonLifeIcon.Name = "PrisonLifeIcon"
-ProjectHazardX.PrisonLifeIcon.Parent = ProjectHazardX.PrisonLife
-ProjectHazardX.PrisonLifeIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ProjectHazardX.PrisonLifeIcon.BorderSizePixel = 0
-ProjectHazardX.PrisonLifeIcon.Position = UDim2.new(0.0186345354, 0, 0.0621461384, 0)
-ProjectHazardX.PrisonLifeIcon.Size = UDim2.new(0, 83, 0, 83)
-ProjectHazardX.PrisonLifeIcon.Image = "rbxassetid://1866398656"
 
 ProjectHazardX.PrisonLifeIcon.Name = "PrisonLifeIcon"
 ProjectHazardX.PrisonLifeIcon.Parent = ProjectHazardX.PrisonLife
@@ -17045,7 +17039,6 @@ ProjectHazardX.VynixiusGUIExecute.MouseButton1Down:Connect(function()
 	wait(2)
 	ProjectHazardX.VynixiusGUILabel.Text = "Execute"
 end)
-
 
 ProjectHazardX.VynixiusGUIButton.Name = "VynixiusGUIButton"
 ProjectHazardX.VynixiusGUIButton.Parent = ProjectHazardX.VynixiusGUIExecute
@@ -17172,6 +17165,7 @@ ProjectHazardX.JBAutoRobExecute.MouseButton1Down:Connect(function()
 	ProjectHazardX.JBAutoRobLabel.Text = "Execute"
 end)
 
+
 ProjectHazardX.JBAutoRobButton.Name = "JBAutoRobButton"
 ProjectHazardX.JBAutoRobButton.Parent = ProjectHazardX.JBAutoRobExecute
 ProjectHazardX.JBAutoRobButton.Active = true
@@ -17268,7 +17262,7 @@ ProjectHazardX.KAT.Name = "KAT"
 ProjectHazardX.KAT.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.KAT.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.KAT.BorderSizePixel = 0
-ProjectHazardX.KAT.Position = UDim2.new(0.244618371, 0, 0.261306524, 0)
+ProjectHazardX.KAT.Position = UDim2.new(0.244618371, 0, 0.223115563, 0)
 ProjectHazardX.KAT.Size = UDim2.new(0, 249, 0, 101)
 
 ProjectHazardX.KATIcon.Name = "KATIcon"
@@ -17393,7 +17387,7 @@ ProjectHazardX.AutoRapBattles.Name = "AutoRapBattles"
 ProjectHazardX.AutoRapBattles.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.AutoRapBattles.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.AutoRapBattles.BorderSizePixel = 0
-ProjectHazardX.AutoRapBattles.Position = UDim2.new(0.744741678, 0, 0.265105724, 0)
+ProjectHazardX.AutoRapBattles.Position = UDim2.new(0.745000005, 0, 0.222110555, 0)
 ProjectHazardX.AutoRapBattles.Size = UDim2.new(0, 115, 0, 137)
 
 ProjectHazardX.ARBGUIExecute.Name = "ARBGUIExecute"
@@ -17464,7 +17458,7 @@ ProjectHazardX.Arsenal.Name = "Arsenal"
 ProjectHazardX.Arsenal.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.Arsenal.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.Arsenal.BorderSizePixel = 0
-ProjectHazardX.Arsenal.Position = UDim2.new(0.00697261095, 0, 0.260080606, 0)
+ProjectHazardX.Arsenal.Position = UDim2.new(0.00499999989, 0, 0.222000003, 0)
 ProjectHazardX.Arsenal.Size = UDim2.new(0, 115, 0, 137)
 
 ProjectHazardX.ArsenalIcon.Name = "ArsenalIcon"
@@ -17567,7 +17561,7 @@ ProjectHazardX.BubbleGumSIm.Name = "BubbleGumSIm"
 ProjectHazardX.BubbleGumSIm.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.BubbleGumSIm.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.BubbleGumSIm.BorderSizePixel = 0
-ProjectHazardX.BubbleGumSIm.Position = UDim2.new(0.00697261095, 0, 0.631939888, 0)
+ProjectHazardX.BubbleGumSIm.Position = UDim2.new(0.0050156638, 0, 0.541487634, 0)
 ProjectHazardX.BubbleGumSIm.Size = UDim2.new(0, 115, 0, 137)
 
 ProjectHazardX.BGSGUIExecute.Name = "BGSGUIExecute"
@@ -17638,7 +17632,7 @@ ProjectHazardX.MM2.Name = "MM2"
 ProjectHazardX.MM2.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.MM2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.MM2.BorderSizePixel = 0
-ProjectHazardX.MM2.Position = UDim2.new(0.744741678, 0, 0.636965036, 0)
+ProjectHazardX.MM2.Position = UDim2.new(0.745000005, 0, 0.541000009, 0)
 ProjectHazardX.MM2.Size = UDim2.new(0, 115, 0, 137)
 
 ProjectHazardX.MM2GUIExecute.Name = "MM2GUIExecute"
@@ -17709,7 +17703,7 @@ ProjectHazardX.Fencing.Name = "Fencing"
 ProjectHazardX.Fencing.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.Fencing.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.Fencing.BorderSizePixel = 0
-ProjectHazardX.Fencing.Position = UDim2.new(0.244618386, 0, 0.5351758, 0)
+ProjectHazardX.Fencing.Position = UDim2.new(0.245000005, 0, 0.444999993, 0)
 ProjectHazardX.Fencing.Size = UDim2.new(0, 249, 0, 101)
 
 ProjectHazardX.FencingIcon.Name = "FencingIcon"
@@ -17834,7 +17828,7 @@ ProjectHazardX.ShindoLife.Name = "ShindoLife"
 ProjectHazardX.ShindoLife.Parent = ProjectHazardX.GameScriptsContents
 ProjectHazardX.ShindoLife.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 ProjectHazardX.ShindoLife.BorderSizePixel = 0
-ProjectHazardX.ShindoLife.Position = UDim2.new(0.238747567, 0, 0.801507413, 0)
+ProjectHazardX.ShindoLife.Position = UDim2.new(0.244618416, 0, 0.664824009, 0)
 ProjectHazardX.ShindoLife.Size = UDim2.new(0, 249, 0, 71)
 
 ProjectHazardX.ShindoLifeIcon.Name = "ShindoLifeIcon"
@@ -17902,6 +17896,304 @@ ProjectHazardX.ShindoLifeAutoFarmName.Text = "Shindo Life Auto Farm"
 ProjectHazardX.ShindoLifeAutoFarmName.TextColor3 = Color3.fromRGB(255, 255, 255)
 ProjectHazardX.ShindoLifeAutoFarmName.TextSize = 15.000
 ProjectHazardX.ShindoLifeAutoFarmName.TextWrapped = true
+
+ProjectHazardX.PLGunCustomize.Name = "PLGunCustomize"
+ProjectHazardX.PLGunCustomize.Parent = ProjectHazardX.GameScriptsContents
+ProjectHazardX.PLGunCustomize.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ProjectHazardX.PLGunCustomize.BorderSizePixel = 0
+ProjectHazardX.PLGunCustomize.Position = UDim2.new(0.00600000005, 0, 0.822000027, 0)
+ProjectHazardX.PLGunCustomize.Size = UDim2.new(0, 249, 0, 87)
+
+ProjectHazardX.PLGunCustomizeExecute.Name = "PLGunCustomizeExecute"
+ProjectHazardX.PLGunCustomizeExecute.Parent = ProjectHazardX.PLGunCustomize
+ProjectHazardX.PLGunCustomizeExecute.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+ProjectHazardX.PLGunCustomizeExecute.BackgroundTransparency = 1.000
+ProjectHazardX.PLGunCustomizeExecute.BorderSizePixel = 0
+ProjectHazardX.PLGunCustomizeExecute.Position = UDim2.new(0.383710653, 0, 0.65310061, 0)
+ProjectHazardX.PLGunCustomizeExecute.Size = UDim2.new(0, 138, 0, 12)
+ProjectHazardX.PLGunCustomizeExecute.Font = Enum.Font.SourceSans
+ProjectHazardX.PLGunCustomizeExecute.Text = ""
+ProjectHazardX.PLGunCustomizeExecute.TextColor3 = Color3.fromRGB(0, 0, 0)
+ProjectHazardX.PLGunCustomizeExecute.TextSize = 14.000
+ProjectHazardX.PLGunCustomizeExecute.MouseButton1Down:Connect(function()
+	local PLGunCustomizeinput = ""
+	if ProjectHazardX.PLGunCustomizeAccessorySlot.Text ~= "" then
+		PLGunCustomizeinput = ProjectHazardX.PLGunCustomizeAccessorySlot.Text
+		ProjectHazardX.PLGunCustomizeAccessorySlot.Text = ""
+		local character = game.Players.LocalPlayer.Character
+		local item = character:FindFirstChild(PLGunCustomizeinput)
+		if item and item:IsA("Accessory") then
+			ProjectHazardX.PLGunCustomizeLabel.Text = "Executed!"
+			loadstring(game:HttpGet("https://pastebin.com/raw/fXwQRn7f"))()
+			wait(0.1)
+
+			game.Players.LocalPlayer.Character:BreakJoints()
+
+			wait(7)
+			local Player = game:GetService("Players").LocalPlayer
+			local Character = Player.Character
+
+			local Gun = PLGunCustomizeinput --press f9 and find the hat that looks like a heads name and put it here
+
+			local GunHandle = Character:WaitForChild(Gun).Handle
+			GunHandle.AccessoryWeld:Remove()
+			local alignpos = Instance.new("AlignPosition", Character)
+			local alignorien = Instance.new("AlignOrientation", Character)
+			local att1 = Instance.new("Attachment", GunHandle)
+			local att2 = Instance.new("Attachment", Character:WaitForChild("Torso"))
+			alignpos.Attachment0 = att1
+			alignpos.Attachment1 = att2
+			alignpos.RigidityEnabled = false
+			alignpos.ReactionForceEnabled = false
+			alignpos.ApplyAtCenterOfMass = true
+			alignpos.MaxForce = 99999999
+			alignpos.MaxVelocity = math.huge
+			alignpos.Responsiveness = 65
+			alignorien.Attachment0 = att1
+			alignorien.Attachment1 = att2
+			alignorien.RigidityEnabled = true
+			alignorien.ReactionTorqueEnabled = true
+			alignorien.PrimaryAxisOnly = false
+			alignorien.MaxTorque = 99999999
+			alignorien.MaxAngularVelocity = math.huge
+			alignorien.Responsiveness = 50
+			att2.Position = Vector3.new(0,-0.9,1)
+			att2.Rotation = Vector3.new(-90,90,180)
+
+			for i,v in pairs(workspace.Prison_ITEMS.giver:GetChildren()) do
+				if v.Name == "M4A1" then
+					workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+				end
+			end
+
+			local PLGun = game.Players.LocalPlayer.Backpack["M4A1"]
+			if PLGun then
+				for _,v in pairs(PLGun.Model:GetChildren()) do
+					if v:IsA("Part") then
+						v:Destroy()
+					end
+				end 
+				PLGun.Handle.Transparency = 1
+				PLGun.Muzzle.Transparency = 1
+			end
+			local isEquipped = game.Players.LocalPlayer.Status["toolIsEquipped"]
+
+			isEquipped.Changed:Connect(function()
+				if isEquipped.Value == true then
+					att2.Position = Vector3.new(0,-2.3,-0.6)
+					att2.Rotation = Vector3.new(-90,0,0)
+					att2.Parent = Character:WaitForChild("Right Arm")
+				else
+					att2.Position = Vector3.new(0,-0.9,1)
+					att2.Rotation = Vector3.new(-90,90,180)
+					att2.Parent = Character:WaitForChild("Torso")
+				end
+			end)
+			wait(2)
+			ProjectHazardX.PLGunCustomizeLabel.Text = "Execute"
+		else
+			ProjectHazardX.PLGunCustomizeLabel.Text = "Error!"
+			wait(2)
+			ProjectHazardX.PLGunCustomizeLabel.Text = "Execute"
+		end
+	elseif ProjectHazardX.PLGunCustomizeAccessorySlot.Text == "" then
+		ProjectHazardX.PLGunCustomizeLabel.Text = "Error!"
+		wait(2)
+		ProjectHazardX.PLGunCustomizeLabel.Text = "Execute"
+	end
+end)
+
+ProjectHazardX.PLGunCustomizeButton.Name = "PLGunCustomizeButton"
+ProjectHazardX.PLGunCustomizeButton.Parent = ProjectHazardX.PLGunCustomizeExecute
+ProjectHazardX.PLGunCustomizeButton.Active = true
+ProjectHazardX.PLGunCustomizeButton.AnchorPoint = Vector2.new(0.5, 0.5)
+ProjectHazardX.PLGunCustomizeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.PLGunCustomizeButton.BackgroundTransparency = 1.000
+ProjectHazardX.PLGunCustomizeButton.Position = UDim2.new(0.544086695, 0, 0.44713974, 0)
+ProjectHazardX.PLGunCustomizeButton.Selectable = true
+ProjectHazardX.PLGunCustomizeButton.Size = UDim2.new(1.06733751, 0, 1.05073798, 0)
+ProjectHazardX.PLGunCustomizeButton.Image = "rbxassetid://3570695787"
+ProjectHazardX.PLGunCustomizeButton.ImageColor3 = Color3.fromRGB(0, 147, 0)
+ProjectHazardX.PLGunCustomizeButton.ScaleType = Enum.ScaleType.Slice
+ProjectHazardX.PLGunCustomizeButton.SliceCenter = Rect.new(100, 100, 100, 100)
+ProjectHazardX.PLGunCustomizeButton.SliceScale = 0.040
+
+ProjectHazardX.PLGunCustomizeLabel.Name = "PLGunCustomizeLabel"
+ProjectHazardX.PLGunCustomizeLabel.Parent = ProjectHazardX.PLGunCustomizeExecute
+ProjectHazardX.PLGunCustomizeLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.PLGunCustomizeLabel.BackgroundTransparency = 1.000
+ProjectHazardX.PLGunCustomizeLabel.Position = UDim2.new(0.189705163, 0, 0.321240753, 0)
+ProjectHazardX.PLGunCustomizeLabel.Size = UDim2.new(0, 97, 0, 3)
+ProjectHazardX.PLGunCustomizeLabel.Font = Enum.Font.GothamSemibold
+ProjectHazardX.PLGunCustomizeLabel.Text = "Execute"
+ProjectHazardX.PLGunCustomizeLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.PLGunCustomizeLabel.TextSize = 13.000
+
+ProjectHazardX.PLGunCustomizeName.Name = "PLGunCustomizeName"
+ProjectHazardX.PLGunCustomizeName.Parent = ProjectHazardX.PLGunCustomize
+ProjectHazardX.PLGunCustomizeName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.PLGunCustomizeName.BackgroundTransparency = 1.000
+ProjectHazardX.PLGunCustomizeName.Position = UDim2.new(-0.0124592483, 0, 0.114331149, 0)
+ProjectHazardX.PLGunCustomizeName.Size = UDim2.new(0, 129, 0, 37)
+ProjectHazardX.PLGunCustomizeName.Font = Enum.Font.GothamBlack
+ProjectHazardX.PLGunCustomizeName.Text = "Prison Life Gun Customization"
+ProjectHazardX.PLGunCustomizeName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.PLGunCustomizeName.TextSize = 15.000
+ProjectHazardX.PLGunCustomizeName.TextWrapped = true
+
+ProjectHazardX.PLGunCustomizeAccessorySlot.Name = "PLGunCustomizeAccessorySlot"
+ProjectHazardX.PLGunCustomizeAccessorySlot.Parent = ProjectHazardX.PLGunCustomize
+ProjectHazardX.PLGunCustomizeAccessorySlot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ProjectHazardX.PLGunCustomizeAccessorySlot.Position = UDim2.new(0.490478039, 0, 0.242392004, 0)
+ProjectHazardX.PLGunCustomizeAccessorySlot.Size = UDim2.new(0, 121, 0, 14)
+ProjectHazardX.PLGunCustomizeAccessorySlot.Font = Enum.Font.SourceSans
+ProjectHazardX.PLGunCustomizeAccessorySlot.PlaceholderColor3 = Color3.fromRGB(131, 131, 131)
+ProjectHazardX.PLGunCustomizeAccessorySlot.PlaceholderText = "DEX Accessory Name"
+ProjectHazardX.PLGunCustomizeAccessorySlot.Text = ""
+ProjectHazardX.PLGunCustomizeAccessorySlot.TextColor3 = Color3.fromRGB(178, 178, 178)
+ProjectHazardX.PLGunCustomizeAccessorySlot.TextSize = 12.000
+
+ProjectHazardX.FencingSwordCustomize.Name = "FencingSwordCustomize"
+ProjectHazardX.FencingSwordCustomize.Parent = ProjectHazardX.GameScriptsContents
+ProjectHazardX.FencingSwordCustomize.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ProjectHazardX.FencingSwordCustomize.BorderSizePixel = 0
+ProjectHazardX.FencingSwordCustomize.Position = UDim2.new(0.495236754, 0, 0.822000027, 0)
+ProjectHazardX.FencingSwordCustomize.Size = UDim2.new(0, 249, 0, 87)
+
+ProjectHazardX.FencingSwordCustomizeExecute.Name = "FencingSwordCustomizeExecute"
+ProjectHazardX.FencingSwordCustomizeExecute.Parent = ProjectHazardX.FencingSwordCustomize
+ProjectHazardX.FencingSwordCustomizeExecute.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+ProjectHazardX.FencingSwordCustomizeExecute.BackgroundTransparency = 1.000
+ProjectHazardX.FencingSwordCustomizeExecute.BorderSizePixel = 0
+ProjectHazardX.FencingSwordCustomizeExecute.Position = UDim2.new(0.383710653, 0, 0.65310061, 0)
+ProjectHazardX.FencingSwordCustomizeExecute.Size = UDim2.new(0, 138, 0, 12)
+ProjectHazardX.FencingSwordCustomizeExecute.Font = Enum.Font.SourceSans
+ProjectHazardX.FencingSwordCustomizeExecute.Text = ""
+ProjectHazardX.FencingSwordCustomizeExecute.TextColor3 = Color3.fromRGB(0, 0, 0)
+ProjectHazardX.FencingSwordCustomizeExecute.TextSize = 14.000
+ProjectHazardX.FencingSwordCustomizeExecute.MouseButton1Down(function()
+	local FencingSwordCustomizeinput = ""
+	if ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text ~= "" then
+		FencingSwordCustomizeinput = ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text
+		ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text = ""
+		local character = game.Players.LocalPlayer.Character
+		local item = character:FindFirstChild(FencingSwordCustomizeinput)
+		if item and item:IsA("Accessory") then
+			ProjectHazardX.FencingSwordCustomizeLabel.Text = "Executed!"
+			loadstring(game:HttpGet("https://pastebin.com/raw/fXwQRn7f"))()
+			wait(0.1)
+
+			game.Players.LocalPlayer.Character:BreakJoints()
+
+			wait(7)
+			local Player = game:GetService("Players").LocalPlayer
+			local Character = Player.Character
+
+			local Sword = FencingSwordCustomizeinput --press f9 and find the hat that looks like a heads name and put it here
+
+			local SwordHandle = Character:WaitForChild(Sword).Handle
+			SwordHandle.AccessoryWeld:Remove()
+			local alignpos = Instance.new("AlignPosition", Character)
+			local alignorien = Instance.new("AlignOrientation", Character)
+			local att1 = Instance.new("Attachment", SwordHandle)
+			local att2 = Instance.new("Attachment", Character:WaitForChild("Torso"))
+			alignpos.Attachment0 = att1
+			alignpos.Attachment1 = att2
+			alignpos.RigidityEnabled = false
+			alignpos.ReactionForceEnabled = false
+			alignpos.ApplyAtCenterOfMass = true
+			alignpos.MaxForce = 99999999
+			alignpos.MaxVelocity = math.huge
+			alignpos.Responsiveness = 65
+			alignorien.Attachment0 = att1
+			alignorien.Attachment1 = att2
+			alignorien.RigidityEnabled = true
+			alignorien.ReactionTorqueEnabled = true
+			alignorien.PrimaryAxisOnly = false
+			alignorien.MaxTorque = 99999999
+			alignorien.MaxAngularVelocity = math.huge
+			alignorien.Responsiveness = 50
+			att2.Position = Vector3.new(0,0,0.6)
+			att2.Rotation = Vector3.new(0,0,0)
+
+			local Foil = game.Players.LocalPlayer.Backpack["Foil"]
+			Foil.Handle.Mesh:Destroy()
+			Foil.RequiresHandle = false
+			Foil.Handle.Transparency = 1
+
+			Foil.Equipped:Connect(function()
+				att2.Position = Vector3.new(0,-1,-2.3)
+				att2.Rotation = Vector3.new(90,90,45)
+				att2.Parent = Character:WaitForChild("Right Arm")
+			end)
+			Foil.Unequipped:Connect(function()
+				att2.Position = Vector3.new(0,0,0.6)
+				att2.Rotation = Vector3.new(0,0,0)
+				att2.Parent = Character:WaitForChild("Torso")
+			end)
+			wait(2)
+			ProjectHazardX.FencingSwordCustomizeLabel.Text = "Execute"
+		else
+			ProjectHazardX.FencingSwordCustomizeLabel.Text = "Error!"
+			wait(2)
+			ProjectHazardX.FencingSwordCustomizeLabel.Text = "Execute"
+		end
+	elseif ProjectHazardX.FencingSwordAccessorySlot.Text == "" then
+		ProjectHazardX.FencingSwordCustomizeLabel.Text = "Error!"
+		wait(2)
+		ProjectHazardX.FencingSwordCustomizeLabel.Text = "Execute"
+	end	
+end)
+
+ProjectHazardX.FencingSwordCustomizeButton.Name = "FencingSwordCustomizeButton"
+ProjectHazardX.FencingSwordCustomizeButton.Parent = ProjectHazardX.FencingSwordCustomizeExecute
+ProjectHazardX.FencingSwordCustomizeButton.Active = true
+ProjectHazardX.FencingSwordCustomizeButton.AnchorPoint = Vector2.new(0.5, 0.5)
+ProjectHazardX.FencingSwordCustomizeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.FencingSwordCustomizeButton.BackgroundTransparency = 1.000
+ProjectHazardX.FencingSwordCustomizeButton.Position = UDim2.new(0.544086695, 0, 0.44713974, 0)
+ProjectHazardX.FencingSwordCustomizeButton.Selectable = true
+ProjectHazardX.FencingSwordCustomizeButton.Size = UDim2.new(1.06733751, 0, 1.05073798, 0)
+ProjectHazardX.FencingSwordCustomizeButton.Image = "rbxassetid://3570695787"
+ProjectHazardX.FencingSwordCustomizeButton.ImageColor3 = Color3.fromRGB(0, 147, 0)
+ProjectHazardX.FencingSwordCustomizeButton.ScaleType = Enum.ScaleType.Slice
+ProjectHazardX.FencingSwordCustomizeButton.SliceCenter = Rect.new(100, 100, 100, 100)
+ProjectHazardX.FencingSwordCustomizeButton.SliceScale = 0.040
+
+ProjectHazardX.FencingSwordCustomizeLabel.Name = "FencingSwordCustomizeLabel"
+ProjectHazardX.FencingSwordCustomizeLabel.Parent = ProjectHazardX.FencingSwordCustomizeExecute
+ProjectHazardX.FencingSwordCustomizeLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.FencingSwordCustomizeLabel.BackgroundTransparency = 1.000
+ProjectHazardX.FencingSwordCustomizeLabel.Position = UDim2.new(0.189705163, 0, 0.321240753, 0)
+ProjectHazardX.FencingSwordCustomizeLabel.Size = UDim2.new(0, 97, 0, 3)
+ProjectHazardX.FencingSwordCustomizeLabel.Font = Enum.Font.GothamSemibold
+ProjectHazardX.FencingSwordCustomizeLabel.Text = "Execute"
+ProjectHazardX.FencingSwordCustomizeLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.FencingSwordCustomizeLabel.TextSize = 13.000
+
+ProjectHazardX.FencingSwordCustomizeName.Name = "FencingSwordCustomizeName"
+ProjectHazardX.FencingSwordCustomizeName.Parent = ProjectHazardX.FencingSwordCustomize
+ProjectHazardX.FencingSwordCustomizeName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.FencingSwordCustomizeName.BackgroundTransparency = 1.000
+ProjectHazardX.FencingSwordCustomizeName.Position = UDim2.new(-0.0124592483, 0, 0.114331149, 0)
+ProjectHazardX.FencingSwordCustomizeName.Size = UDim2.new(0, 129, 0, 37)
+ProjectHazardX.FencingSwordCustomizeName.Font = Enum.Font.GothamBlack
+ProjectHazardX.FencingSwordCustomizeName.Text = "Fencing Sword Customization"
+ProjectHazardX.FencingSwordCustomizeName.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectHazardX.FencingSwordCustomizeName.TextSize = 15.000
+ProjectHazardX.FencingSwordCustomizeName.TextWrapped = true
+
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Name = "FencingSwordCustomizeAccessorySlot"
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Parent = ProjectHazardX.FencingSwordCustomize
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Position = UDim2.new(0.490478039, 0, 0.242392004, 0)
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Size = UDim2.new(0, 121, 0, 14)
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Font = Enum.Font.SourceSans
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.PlaceholderColor3 = Color3.fromRGB(131, 131, 131)
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.PlaceholderText = "DEX Accessory Name"
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.Text = ""
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.TextColor3 = Color3.fromRGB(178, 178, 178)
+ProjectHazardX.FencingSwordCustomizeAccessorySlot.TextSize = 12.000
 
 ProjectHazardX.HubScriptsContents.Name = "HubScriptsContents"
 ProjectHazardX.HubScriptsContents.Parent = ProjectHazardX.Content
